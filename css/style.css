@@ -1,0 +1,66 @@
+body{
+    background-color:darkcyan;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.815);
+    color: white;
+    justify-content: left;
+}
+
+ul{
+    padding-left:30px;
+    margin-bottom: 9px;
+}
+
+li{
+    display: inline;
+    margin-right: 20px;
+}
+
+.items a{
+    padding:10px;
+    color:white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a:hover{
+    background-color:white;
+    color:black;
+    border-radius:2px;
+}
+
+.imgPrincipal{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    height: 36em;
+    background-color: black;
+    background-image: url("../img/pulpOne.jpg");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center center;
+    color:white;
+}
+
+.mainText{
+    color: whitesmoke;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mainText h2{
+    text-shadow: rgb(24, 24, 24) 3px 3px 4px;
+    font-size:8rem;
+    background-color:rgba(0, 0, 0, 0.37);
+}
+
+.mainText h3{
+    text-shadow: rgb(37, 37, 37) 2px 2px 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
